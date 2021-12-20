@@ -1,0 +1,44 @@
+.element_container{
+    display: flex;
+    
+}
+
+img{
+    border-radius: 4px;
+    margin-bottom: 25px;
+}
+
+img:hover{
+    border-radius: 4px;
+    margin-bottom: 25px;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.element_title{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: inherit;
+    line-height: 1.1;
+    color: #222;
+    margin-bottom: 5px;
+
+}
+
+.element_list{
+    color: grey;
+    font-size: 15px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+
+.element_list:hover{
+    color: #6372ad;
+    font-size: 15px;
+    font-weight: normal;
+    cursor: pointer;
+    text-decoration: underline;
+}
+

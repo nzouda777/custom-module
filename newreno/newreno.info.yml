@@ -1,0 +1,8 @@
+name: lay-template
+type: module
+description: 'This is a drupal layout'
+package: Custom
+version: 1.0
+core_version_requirement: ^8 || ^9
+libraries:
+  - newreno/templates/css

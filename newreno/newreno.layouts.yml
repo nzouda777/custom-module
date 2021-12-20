@@ -1,0 +1,22 @@
+newreno:
+  label: 'text to display'
+  path: templates/layouts
+  category: 'Template lesroisdelareno'
+  library: newreno/layout_teaser
+  template: teaser
+  default_region: Main
+  icon_map:
+
+    - [image]
+    - [title]
+    - [sub-title]
+    
+  regions:
+    image:
+      label: set_image
+    title:
+      label: set_title
+    element:
+      label: set_elements
+       
+   

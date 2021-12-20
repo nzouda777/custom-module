@@ -1,0 +1,12 @@
+newreno:
+  css:
+    theme:
+      templates/css/w3.css: {}
+      templates/css/style.css: {}
+
+
+layout_teaser:
+  css:
+    theme:
+      templates/css/layout-teaser.css: {}
+      templates/css/w3.css: {}

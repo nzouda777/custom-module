@@ -1,0 +1,47 @@
+
+    
+<div class="element_container">
+
+{% if content %}
+    
+        <div  {{ attributes.addClass('layout') }}>
+
+{# image displayer #}
+
+        {% if content.image %}
+            <div class="mouseon">
+            <div {{ region_attributes.image.addClass('image') }} >
+
+                {{ content.image }}
+
+            </div>
+            </div>
+        {% endif %}
+
+{# title displayer #}
+    <div class="element_title">
+        {% if content.title %}
+
+            <div {{ region_attributes.title.addClass('title') }}>
+
+                {{ content.title }}
+
+            </div>
+        
+     </div>   {% endif %}
+
+{# location displayer #}
+    <div class="element_list">
+        {% if content.element %}
+            
+                <div {{ region_attributes.element.addClass('element') }}>
+                          {{ content.element }}
+                </div>
+        {% endif %}
+    </div>    
+
+        </div>
+   
+{% endif %}
+
+</div>
